@@ -441,3 +441,14 @@ footer {
 footer p {
   text-align: center;
 }
+
+/*
+:root{
+  color-scheme:light dark;
+}
+
+body{
+  background-color: light dark(#fff,#444);
+  color: light-dark(#444,#fff);
+}
+  */
