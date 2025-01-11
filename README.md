@@ -49,19 +49,19 @@
 ## Screenshots
 
 ### Home Page
-![]()
+![](https://github.com/SorcererChiragsingh/My-Responsive-Portfolio/blob/main/assets/preview1.png)
 
 ### About Page
-![]()
+![](https://github.com/SorcererChiragsingh/My-Responsive-Portfolio/blob/main/assets/preview2.png)
 
-###  Page
-![]()
+### Experience in Technology Page
+![](https://github.com/SorcererChiragsingh/My-Responsive-Portfolio/blob/main/assets/preview3.png)
 
-###  Page
-![]()
+### Project's Page
+![](https://github.com/SorcererChiragsingh/My-Responsive-Portfolio/blob/main/assets/preview4.png)
 
 ### Contact Page
-![]()
+![](https://github.com/SorcererChiragsingh/My-Responsive-Portfolio/blob/main/assets/preview5.png)
 
 
 ## Tech Stack
