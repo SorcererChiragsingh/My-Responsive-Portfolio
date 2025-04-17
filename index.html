@@ -36,10 +36,12 @@
           </div>
         </div>
       </nav>
+
+<!-- Profile Section Start-->      
       <section id="profile">
-        <div class="section__pic-container">
-            <img src="./assets/profile-pic.png" alt="Chirag profile picture" />
-          </div>
+        <div class="section__pic-container" style="border-radius: 50%; overflow: hidden; width: 500px; height: 500px;">
+          <img src="./assets/profile-pic.jpg" alt="Chirag profile picture" style="width: 100%; height: 100%; object-fit: cover;" />
+        </div>
         <div class="section__text">
           <p class="section__text__p1">Hello, I'm</p>
           <h1 class="title">Chirag</h1>
@@ -73,9 +75,16 @@
           </div>
         </div>
       </section>
+      <img
+      src="./assets/arrow.png"
+      alt="Arrow icon"
+      class="icon arrow"
+      onclick="location.href='./#about'"
+    />
+<!-- About Section Start-->      
       <section id="about">
         <p class="section__text__p1">Get To Know More</p>
-        <h1 class="title">About Me</h1>
+        <h1 class="title">ABOUT ME</h1>
         <div class="section-container">
           <div class="section__pic-container">
             <img
@@ -122,6 +131,8 @@
           onclick="location.href='./#experience'"
         />
       </section>
+
+<!-- Experience Section Start-->      
       <section id="experience">
         <p class="section__text__p1">Explore My</p>
         <h1 class="title">Experience In Technologies</h1>
@@ -300,121 +311,182 @@
           onclick="location.href='./#projects'"
         />
       </section>
+
+<!-- Project Section Start-->
       <section id="projects">
         <p class="section__text__p1">Browse My Recent</p>
-        <h1 class="title">Projects</h1>
-        <div class="experience-details-container">
-          <div class="about-containers">
-            <!-- First Project-->
-            <div class="details-container color-container">
-              <div class="article-container">
-                <img
-                  src="./assets/Firstflight.png"
-                  alt="Project 1"
-                  class="project-img"
-                />
-              </div>
-              <h2 class="experience-sub-title project-title">First Flight Travels</h2>
-              <div class="btn-container">
-                <button
-                  class="btn btn-color-2 project-btn"
-                  onclick="location.href='https://github.com/SorcererChiragsingh/Project-FirstFlight-Travels'"
-                >
-                  Github
-                </button>
-                <button
-                  class="btn btn-color-2 project-btn"
-                  onclick="location.href='https://firstflighttravels.netlify.app'"
-                >
-                  Live Demo
-                </button>
-              </div>
+        <h1 class="title">PROJECTS</h1>
+
+         
+        <div class="projects-container">
+
+          <!-- First Project-->
+            <div class="project-card color-container">
+                <div class="article-container">
+                    <img
+                        src="./assets/Firstflight.png"
+                        alt="Project 1"
+                        class="project-img"
+                    />
+                </div>
+                <h2 class="experience-sub-title project-title">First Flight Travels</h2>
+                <div class="btn-container">
+                    <button
+                        class="btn btn-color-2 project-btn"
+                        onclick="window.open('https://github.com/SorcererChiragsingh/Project-FirstFlight-Travels', '_blank');"
+                    >
+                        Github
+                    </button>
+                    <button
+                        class="btn btn-color-2 project-btn"
+                        onclick="window.open('https://firstflighttravels.netlify.app', '_blank');"
+                    >
+                        Live Demo
+                    </button>
+                </div>
             </div>
-           <!-- Second Project-->
-            <div class="details-container color-container">
-              <div class="article-container">
-                <img
-                  src="./assets/project-1.png"
-                  alt="Project 1"
-                  class="project-img"
-                />
-              </div>
-              <h2 class="experience-sub-title project-title">WriteSphere</h2>
-              <div class="btn-container">
-                <button
-                  class="btn btn-color-2 project-btn"
-                  onclick="location.href='https://github.com/SorcererChiragsingh/WriteSphere'"
-                >
-                  Github
-                </button>
-                <button
-                  class="btn btn-color-2 project-btn"
-                  onclick="location.href='https://write-sphere.vercel.app/'"
-                >
-                  Live Demo
-                </button>
-              </div>
+            
+            <!-- Second Project-->
+            <div class="project-card color-container">
+                <div class="article-container">
+                    <img
+                        src="./assets/project-1.png"
+                        alt="Project 2"
+                        class="project-img"
+                    />
+                </div>
+                <h2 class="experience-sub-title project-title">WriteSphere</h2>
+                <div class="btn-container">
+                    <button
+                        class="btn btn-color-2 project-btn"
+                        onclick="window.open('https://github.com/SorcererChiragsingh/WriteSphere', '_blank');"
+                    >
+                        Github
+                    </button>
+                    <button
+                        class="btn btn-color-2 project-btn"
+                        onclick="window.open('https://write-sphere.vercel.app/', '_blank');"
+                    >
+                        Live Demo
+                    </button>
+                </div>
             </div>
+            
             <!-- Third Project-->
-            <div class="details-container color-container">
-              <div class="article-container">
-                <img
-                  src="./assets/project-2.png"
-                  alt="Project 2"
-                  class="project-img"
-                />
-              </div>
-              <h2 class="experience-sub-title project-title">Memory Matching Game</h2>
-              <div class="btn-container">
-                <button
-                  class="btn btn-color-2 project-btn"
-                  onclick="location.href='https://github.com/SorcererChiragsingh/Web-Development-Projects/tree/main/28-Memory%20Matching%20Game'"
-                >
-                  Github
-                </button>
-                <button
-                  class="btn btn-color-2 project-btn"
-                  onclick="location.href='https://sorcererchiragsingh.github.io/Web-Development-Projects/28-Memory%20Matching%20Game'"
-                >
-                  Live Demo
-                </button>
-              </div>
+            <div class="project-card color-container">
+                <div class="article-container">
+                    <img
+                        src="./assets/project-2.png"
+                        alt="Project 3"
+                        class="project-img"
+                    />
+                </div>
+                <h2 class="experience-sub-title project-title">Memory Matching Game</h2>
+                <div class="btn-container">
+                    <button
+                        class="btn btn-color-2 project-btn"
+                        onclick="window.open('https://github.com/SorcererChiragsingh/Web-Development-Projects/tree/main/28-Memory%20Matching%20Game', '_blank');"
+                    >
+                        Github
+                    </button>
+                    <button
+                        class="btn btn-color-2 project-btn"
+                        onclick="window.open('https://sorcererchiragsingh.github.io/Web-Development-Projects/28-Memory%20Matching%20Game', '_blank');"
+                    >
+                        Live Demo
+                    </button>
+                </div>
             </div>
+
             <!-- Fourth Project-->
-            <div class="details-container color-container">
-              <div class="article-container">
-                <img
-                  src="./assets/project-3.png"
-                  alt="Project 3"
-                  class="project-img"
-                />
-              </div>
-              <h2 class="experience-sub-title project-title">Drawing App</h2>
-              <div class="btn-container">
-                <button
-                  class="btn btn-color-2 project-btn"
-                  onclick="location.href='https://github.com/SorcererChiragsingh/Web-Development-Projects/tree/main/25-Drawing%20App'"
-                >
-                  Github
-                </button>
-                <button
-                  class="btn btn-color-2 project-btn"
-                  onclick="location.href='https://sorcererchiragsingh.github.io/Web-Development-Projects/25-Drawing%20App'"
-                >
-                  Live Demo
-                </button>
+            <div class="project-card color-container">
+                <div class="article-container">
+                    <img
+                        src="./assets/project-3.png"
+                        alt="Project 4"
+                        class="project-img"
+                    />
+                </div>
+                <h2 class="experience-sub-title project-title">Drawing App</h2>
+                <div class="btn-container">
+                  <button
+                      class="btn btn-color-2 project-btn"
+                      onclick="window.open('https://github.com/SorcererChiragsingh/Web-Development-Projects/tree/main/25-Drawing%20App', '_blank');"
+                  >
+                      Github
+                  </button>
+                  <button
+                      class="btn btn-color-2 project-btn"
+                      onclick="window.open('https://sorcererchiragsingh.github.io/Web-Development-Projects/25-Drawing%20App', '_blank');"
+                  >
+                      Live Demo
+                  </button>
               </div>
             </div>
+
+<!-- Remove This Comment While Adding Other Projects              
+            
+            <div class="project-card color-container">
+                <div class="article-container">
+                    <img
+                        src="https://via.placeholder.com/300"
+                        alt="Project 5"
+                        class="project-img"
+                    />
+                </div>
+                <h2 class="experience-sub-title project-title">Project Five</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" 
+                    "window.open('#', '_blank');"
+                    >
+                        Github
+                    </button>
+                    <button class="btn btn-color-2 project-btn" 
+                    "window.open('#', '_blank');"
+                    >
+                        Live Demo
+                    </button>
+                </div>
+            </div>
+
+              
+        <div class="project-card color-container">
+          <div class="article-container">
+              <img
+                  src="https://via.placeholder.com/300"
+                  alt="Project 6"
+                  class="project-img"
+              />
           </div>
+          <h2 class="experience-sub-title project-title">Project Six</h2>
+          <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" 
+                    "window.open('#', '_blank');"
+                    >
+                        Github
+                    </button>
+                    <button class="btn btn-color-2 project-btn" 
+                    "window.open('#', '_blank');"
+                    >
+                        Live Demo
+                    </button>
+                </div>
+            </div>
+
+       
+      this is end div
         </div>
-      
+
+-->        
         <img
-          src="./assets/arrow.png"
-          alt="Arrow icon"
-          class="icon arrow"
-          onclick="location.href='./#contact'"
+            src="./assets/arrow.png"
+            alt="Arrow icon"
+            class="icon arrow"
+            onclick="location.href='./#contact'"
         />
       </section>
+
+<!-- Contact Section Start-->
       <section id="contact">
         <p class="section__text__p1">Get in Touch</p>
         <h1 class="title">Contact Me</h1>
@@ -442,6 +514,8 @@
           
         </div>
       </section>
+
+<!-- Footer Section Start-->      
       <footer>
         <nav>
           <div class="nav-links-container">
@@ -453,7 +527,7 @@
             </ul>
           </div>
         </nav>
-        <p>Copyright &#169; 2024 @SorcererChiragsingh. All Rights Reserved.</p>
+        <p>Copyright &#169; 2025 @SorcererChiragsingh. All Rights Reserved.</p>
        <!--  <p>View me in Light/Dark Mode, Change your theme in OS.</p> -->
       </footer>
     <script src="script.js"></script>

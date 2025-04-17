@@ -1,0 +1,594 @@
+<section id="projects">
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+          <div class="about-containers">
+            <!-- First Project-->
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./assets/Firstflight.png"
+                  alt="Project 1"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">First Flight Travels</h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/SorcererChiragsingh/Project-FirstFlight-Travels'"
+                >
+                  Github
+                </button>
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://firstflighttravels.netlify.app'"
+                >
+                  Live Demo
+                </button>
+              </div>
+            </div>
+           <!-- Second Project-->
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./assets/project-1.png"
+                  alt="Project 1"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">WriteSphere</h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/SorcererChiragsingh/WriteSphere'"
+                >
+                  Github
+                </button>
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://write-sphere.vercel.app/'"
+                >
+                  Live Demo
+                </button>
+              </div>
+            </div>
+            <!-- Third Project-->
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./assets/project-2.png"
+                  alt="Project 2"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">Memory Matching Game</h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/SorcererChiragsingh/Web-Development-Projects/tree/main/28-Memory%20Matching%20Game'"
+                >
+                  Github
+                </button>
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://sorcererchiragsingh.github.io/Web-Development-Projects/28-Memory%20Matching%20Game'"
+                >
+                  Live Demo
+                </button>
+              </div>
+            </div>
+            <!-- Fourth Project-->
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./assets/project-3.png"
+                  alt="Project 3"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">Drawing App</h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/SorcererChiragsingh/Web-Development-Projects/tree/main/25-Drawing%20App'"
+                >
+                  Github
+                </button>
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://sorcererchiragsingh.github.io/Web-Development-Projects/25-Drawing%20App'"
+                >
+                  Live Demo
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      
+        <img
+          src="./assets/arrow.png"
+          alt="Arrow icon"
+          class="icon arrow"
+          onclick="location.href='./#contact'"
+        />
+      </section>
+
+-------------
+
+/* PROJECTS SECTION */
+
+#projects {
+  position: relative;
+}
+
+.color-container {
+  border-color: rgb(163, 163, 163);
+  background: rgb(250, 250, 250);
+}
+
+.project-img {
+  border-radius: 2rem;
+  width: 90%;
+  height: 90%;
+}
+
+.project-title {
+  margin: 1rem;
+  color: black;
+}
+
+.project-btn {
+  color: black;
+  border-color: rgb(163, 163, 163);
+}
+------------------------------------------------------------------------------------------
+
+<section id="projects">
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+    
+        <div class="projects-container">
+            <div class="project-card color-container">
+                <div class="article-container">
+                    <img
+                        src="./assets/Firstflight.png"
+                        alt="Project 1"
+                        class="project-img"
+                    />
+                </div>
+                <h2 class="experience-sub-title project-title">First Flight Travels</h2>
+                <div class="btn-container">
+                    <button
+                        class="btn btn-color-2 project-btn"
+                        onclick="location.href='https://github.com/SorcererChiragsingh/Project-FirstFlight-Travels'"
+                    >
+                        Github
+                    </button>
+                    <button
+                        class="btn btn-color-2 project-btn"
+                        onclick="location.href='https://firstflighttravels.netlify.app'"
+                    >
+                        Live Demo
+                    </button>
+                </div>
+            </div>
+            <div class="project-card color-container">
+                <div class="article-container">
+                    <img
+                        src="./assets/project-1.png"
+                        alt="Project 2"
+                        class="project-img"
+                    />
+                </div>
+                <h2 class="experience-sub-title project-title">WriteSphere</h2>
+                <div class="btn-container">
+                    <button
+                        class="btn btn-color-2 project-btn"
+                        onclick="location.href='https://github.com/SorcererChiragsingh/WriteSphere'"
+                    >
+                        Github
+                    </button>
+                    <button
+                        class="btn btn-color-2 project-btn"
+                        onclick="location.href='https://write-sphere.vercel.app/'"
+                    >
+                        Live Demo
+                    </button>
+                </div>
+            </div>
+            <div class="project-card color-container">
+                <div class="article-container">
+                    <img
+                        src="./assets/project-2.png"
+                        alt="Project 3"
+                        class="project-img"
+                    />
+                </div>
+                <h2 class="experience-sub-title project-title">Memory Matching Game</h2>
+                <div class="btn-container">
+                    <button
+                        class="btn btn-color-2 project-btn"
+                        onclick="location.href='https://github.com/SorcererChiragsingh/Web-Development-Projects/tree/main/28-Memory%20Matching%20Game'"
+                    >
+                        Github
+                    </button>
+                    <button
+                        class="btn btn-color-2 project-btn"
+                        onclick="location.href='https://sorcererchiragsingh.github.io/Web-Development-Projects/28-Memory%20Matching%20Game'"
+                    >
+                        Live Demo
+                    </button>
+                </div>
+            </div>
+            <div class="project-card color-container">
+                <div class="article-container">
+                    <img
+                        src="./assets/project-3.png"
+                        alt="Project 4"
+                        class="project-img"
+                    />
+                </div>
+                <h2 class="experience-sub-title project-title">Drawing App</h2>
+                <div class="btn-container">
+                    <button
+                        class="btn btn-color-2 project-btn"
+                        onclick="location.href='https://github.com/SorcererChiragsingh/Web-Development-Projects/tree/main/25-Drawing%20App'"
+                    >
+                        Github
+                    </button>
+                    <button
+                        class="btn btn-color-2 project-btn"
+                        onclick="location.href='https://sorcererchiragsingh.github.io/Web-Development-Projects/25-Drawing%20App'"
+                    >
+                        Live Demo
+                    </button>
+                </div>
+            </div>
+            <div class="project-card color-container">
+                <div class="article-container">
+                    <img
+                        src="https://via.placeholder.com/300"
+                        alt="Project 5"
+                        class="project-img"
+                    />
+                </div>
+                <h2 class="experience-sub-title project-title">Project Five</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='#'">
+                        Github
+                    </button>
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='#'">
+                        Live Demo
+                    </button>
+                </div>
+            </div>
+            </div>
+    
+        <img
+            src="./assets/arrow.png"
+            alt="Arrow icon"
+            class="icon arrow"
+            onclick="location.href='./#contact'"
+        />
+    </section>
+
+----------------
+
+#projects {
+  padding-top: 4rem;
+  margin: 0 1rem; /* Added some margin for smaller screens */
+  text-align: center;
+}
+
+.projects-container {
+  display: flex;
+  flex-wrap: wrap; /* Allow projects to wrap to the next line */
+  justify-content: center; /* Center projects horizontally */
+  gap: 2rem; /* Space between project cards */
+  margin-top: 2rem;
+}
+
+.project-card {
+  background: rgb(31, 31, 31);
+  border-radius: 2rem;
+  width: clamp(300px, 70%, 400px); /* Responsive width */
+  overflow: hidden; /* To contain rounded corners of image */
+}
+
+.article-container {
+  width: 100%;
+  height: auto; /* Maintain aspect ratio */
+}
+
+.project-img {
+  width: 100%;
+  border-radius: 2rem 2rem 0 0;
+}
+
+.project-title {
+  margin: 1rem;
+  color: white;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding-bottom: 1rem;
+}
+
+.project-btn {
+  background-color: white !important;
+  color: black !important;
+}
+
+.project-btn:hover {
+  background-color: var(--color-primary) !important;
+  color: white !important;
+}
+
+.arrow {
+  position: relative;
+  bottom: -5rem; /* Adjust as needed */
+}
+
+@media screen and (min-width: 768px) {
+  .projects-container {
+      flex-direction: row; /* Display projects in a row on larger screens */
+      justify-content: space-around; /* Distribute space evenly */
+  }
+
+  .project-card {
+      width: clamp(300px, 30%, 350px); /* Adjust width for larger screens */
+  }
+
+  .arrow {
+      bottom: -8rem; /* Adjust arrow position for larger screens */
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .projects-container {
+      justify-content: space-between; /* More space between projects on very large screens */
+  }
+
+  .project-card {
+      width: 30%; /* Fixed width for very large screens */
+  }
+}
+
+------------------------------------------------------------------------------------------
+
+<section id="projects">
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+    
+        <div class="projects-container">
+            <div class="project-card color-container">
+                <div class="article-container">
+                    <img
+                        src="./assets/Firstflight.png"
+                        alt="Project 1"
+                        class="project-img"
+                    />
+                </div>
+                <h2 class="experience-sub-title project-title">First Flight Travels</h2>
+                <div class="btn-container">
+                    <button
+                        class="btn btn-color-2 project-btn"
+                        onclick="location.href='https://github.com/SorcererChiragsingh/Project-FirstFlight-Travels'"
+                    >
+                        Github
+                    </button>
+                    <button
+                        class="btn btn-color-2 project-btn"
+                        onclick="location.href='https://firstflighttravels.netlify.app'"
+                    >
+                        Live Demo
+                    </button>
+                </div>
+            </div>
+            <div class="project-card color-container">
+                <div class="article-container">
+                    <img
+                        src="./assets/project-1.png"
+                        alt="Project 2"
+                        class="project-img"
+                    />
+                </div>
+                <h2 class="experience-sub-title project-title">WriteSphere</h2>
+                <div class="btn-container">
+                    <button
+                        class="btn btn-color-2 project-btn"
+                        onclick="location.href='https://github.com/SorcererChiragsingh/WriteSphere'"
+                    >
+                        Github
+                    </button>
+                    <button
+                        class="btn btn-color-2 project-btn"
+                        onclick="location.href='https://write-sphere.vercel.app/'"
+                    >
+                        Live Demo
+                    </button>
+                </div>
+            </div>
+            <div class="project-card color-container">
+                <div class="article-container">
+                    <img
+                        src="./assets/project-2.png"
+                        alt="Project 3"
+                        class="project-img"
+                    />
+                </div>
+                <h2 class="experience-sub-title project-title">Memory Matching Game</h2>
+                <div class="btn-container">
+                    <button
+                        class="btn btn-color-2 project-btn"
+                        onclick="location.href='https://github.com/SorcererChiragsingh/Web-Development-Projects/tree/main/28-Memory%20Matching%20Game'"
+                    >
+                        Github
+                    </button>
+                    <button
+                        class="btn btn-color-2 project-btn"
+                        onclick="location.href='https://sorcererchiragsingh.github.io/Web-Development-Projects/28-Memory%20Matching%20Game'"
+                    >
+                        Live Demo
+                    </button>
+                </div>
+            </div>
+            <div class="project-card color-container">
+                <div class="article-container">
+                    <img
+                        src="./assets/project-3.png"
+                        alt="Project 4"
+                        class="project-img"
+                    />
+                </div>
+                <h2 class="experience-sub-title project-title">Drawing App</h2>
+                <div class="btn-container">
+                    <button
+                        class="btn btn-color-2 project-btn"
+                        onclick="location.href='https://github.com/SorcererChiragsingh/Web-Development-Projects/tree/main/25-Drawing%20App'"
+                    >
+                        Github
+                    </button>
+                    <button
+                        class="btn btn-color-2 project-btn"
+                        onclick="location.href='https://sorcererchiragsingh.github.io/Web-Development-Projects/25-Drawing%20App'"
+                    >
+                        Live Demo
+                    </button>
+                </div>
+            </div>
+            <div class="project-card color-container">
+                <div class="article-container">
+                    <img
+                        src="https://via.placeholder.com/300"
+                        alt="Project Five"
+                        class="project-img"
+                    />
+                </div>
+                <h2 class="experience-sub-title project-title">Project Five</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='#'">
+                        Github
+                    </button>
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='#'">
+                        Live Demo
+                    </button>
+                </div>
+            </div>
+        </div>
+    
+        <img
+            src="./assets/arrow.png"
+            alt="Arrow icon"
+            class="icon arrow"
+            onclick="location.href='./#contact'"
+        />
+    </section>
+-----------------
+
+#projects {
+  padding-top: 4rem;
+  margin: 0 1rem;
+  text-align: center;
+}
+
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem; /* Slightly reduced gap */
+  margin-top: 2rem;
+}
+
+.project-card {
+  background: rgb(31, 31, 31);
+  border-radius: 2rem;
+  width: clamp(280px, 90%, 350px); /* Increased max percentage, reduced max width */
+  overflow: hidden;
+}
+
+.article-container {
+  width: 100%;
+  height: auto;
+}
+
+.project-img {
+  width: 100%;
+  border-radius: 2rem 2rem 0 0;
+  display: block; /* Prevent extra space below image */
+}
+
+.project-title {
+  margin: 1rem;
+  color: white;
+  font-size: 1.2rem; /* Slightly smaller title */
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  gap: 0.75rem; /* Slightly reduced button gap */
+  padding: 0 1rem 1rem 1rem; /* Add horizontal padding */
+}
+
+.project-btn {
+  background-color: white !important;
+  color: black !important;
+  font-size: 0.8rem; /* Slightly smaller button text */
+  padding: 0.5rem 1rem; /* Adjust button padding */
+}
+
+.project-btn:hover {
+  background-color: var(--color-primary) !important;
+  color: white !important;
+}
+
+.arrow {
+  position: relative;
+  bottom: -4rem; /* Adjust arrow position */
+  width: 2rem; /* Adjust arrow size if needed */
+  height: auto;
+}
+
+/* Media query for small tablets and larger phones */
+@media screen and (min-width: 600px) {
+  .projects-container {
+      justify-content: space-around;
+  }
+
+  .project-card {
+      width: clamp(280px, 45%, 380px); /* Allow two columns on smaller tablets */
+  }
+
+  .arrow {
+      bottom: -6rem;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .projects-container {
+      justify-content: space-between;
+  }
+
+  .project-card {
+      width: clamp(300px, 30%, 400px); /* Back to a potential three-column layout */
+  }
+
+  .arrow {
+      bottom: -8rem;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .project-card {
+      width: 32%; /* Slightly adjusted for better three-column spacing */
+  }
+}
+
+-----------------------------------------------------------------------------------------
+
+
