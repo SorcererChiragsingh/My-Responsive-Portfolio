@@ -517,6 +517,54 @@ footer p {
   text-align: center;
 }
 
+/* THEME: LIGHT/DARK MODE */
+body.dark-theme {
+  background-color: #181818;
+  color: #f1f1f1;
+}
+body.dark-theme nav,
+body.dark-theme .details-container,
+body.dark-theme .contact-info-upper-container {
+  background: #232323;
+  border-color: #444;
+}
+body.dark-theme .nav-links a,
+body.dark-theme .logo,
+body.dark-theme .menu-links a {
+  color: #f1f1f1;
+}
+body.dark-theme .btn,
+body.dark-theme .btn-color-1,
+body.dark-theme .btn-color-2 {
+  background: #232323;
+  color: #f1f1f1;
+  border-color: #888;
+}
+body.dark-theme .btn:hover,
+body.dark-theme .btn-color-1:hover,
+body.dark-theme .btn-color-2:hover {
+  background: #444;
+  color: #fff;
+}
+body.dark-theme .project-card {
+  background: #232323;
+}
+body.dark-theme .project-title {
+  color: #fff;
+}
+body.dark-theme .menu-links {
+  background: #232323;
+}
+body.dark-theme .hamburger-icon span {
+  background-color: #f1f1f1;
+}
+body.dark-theme p {
+  color: #ccc;
+}
+body.dark-theme .icon {
+  filter: brightness(0.8) invert(0.8);
+}
+
 /*
 :root{
   color-scheme:light dark;
