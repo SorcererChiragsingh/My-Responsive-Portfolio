@@ -565,6 +565,46 @@ body.dark-theme .icon {
   filter: brightness(0.8) invert(0.8);
 }
 
+/* PROJECT DETAILS MODAL */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 2000;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.6);
+  align-items: center;
+  justify-content: center;
+}
+.modal-content {
+  background: #ffffff;
+  margin: 5% auto;
+  padding: 2rem;
+  border-radius: 1.5rem;
+  width: 90%;
+  max-width: 600px;
+  position: relative;
+  box-shadow: 0 4px 32px rgba(0,0,0,0.2);
+}
+.close-modal {
+  position: absolute;
+  top: 1rem;
+  right: 1.5rem;
+  font-size: 2rem;
+  color: #333;
+  cursor: pointer;
+}
+body.dark-theme .modal-content {
+  background: #232323;
+  color: #f1f1f1;
+}
+body.dark-theme .close-modal {
+  color: #f1f1f1;
+}
+
 /*
 :root{
   color-scheme:light dark;
